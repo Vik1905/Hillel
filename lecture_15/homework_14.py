@@ -21,8 +21,3 @@ class TeamLead(Manager, Developer):
         Manager.__init__(self, name, salary, department)
         Developer.__init__(self, name, salary, programming_language)
         self.team_size = team_size
-
-
-# Тест, який перевіряє наявність атрибутів з Manager та Developer у класі TeamLead
-
-team_lead = TeamLead("Alexandr", 5600, "Engineering", "Python", 7)

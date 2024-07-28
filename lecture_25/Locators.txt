@@ -1,0 +1,34 @@
+XPath locators
+1. //a[@class='btn header-link -active']
+2. //button[text()='About']
+3. //button[text()='Contacts']
+4. //button[@class='header-link -guest']
+5. //button[text()='Sign In']
+6. //button[contains(@class, 'hero-descriptor')]
+7. //img[@src='/assets/images/homepage/info_1.jpg']
+8. //img[@src='/assets/images/homepage/info_2.jpg']
+9. //p[text()='Log fuel expenses']
+10. //p[text()='Instructions and manuals']
+11. //span[@class='socials_icon icon icon-facebook']
+12. //span[@class='socials_icon icon icon-telegram']
+13. //span[@class='socials_icon icon icon-instagram']
+14. //a[@class='contacts_link display-4']
+15. //a[@class='contacts_link h4']
+
+
+CSS locators
+1. div a.header_logo
+2. nav a.header-link
+3. nav button[appscrollto=aboutSection]
+4. nav button[appscrollto=contactsSection]
+5. button.-guest
+6. button.header_signin
+7. button.btn-primary
+8. img[src="/assets/images/homepage/info_1.jpg"]
+9. img[src="/assets/images/homepage/info_2.jpg"]
+10. span.icon-facebook
+11. span.icon-telegram
+12. span.icon-youtube
+13. span.icon-linkedin
+14. a.contacts_link.display-4
+15. a.contacts_link.h4

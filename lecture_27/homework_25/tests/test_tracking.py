@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from lecture_27.homework_24.pages.tracking_page import TrackingPage
+from lecture_27.homework_25.pages.tracking_page import TrackingPage
 
 @pytest.fixture
 def driver():
